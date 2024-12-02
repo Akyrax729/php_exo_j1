@@ -1,0 +1,26 @@
+@use "../abstract/variable" as var;
+
+body {
+    background-color: var.$primarycolor;
+    color: white;
+    margin-left: 10px;
+
+   table {
+
+        tbody {
+            display: flex;
+
+
+            td{
+                border: 1px solid white;
+                height: 2rem;
+                width: 2rem;
+                margin: 2px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+            }
+        }
+    }
+} 
